@@ -1,0 +1,87 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\KULIAH\\TUGAS KULIAH\\AR & VR\\UAS\\AR UAS DEV V2\\AR UAS V2\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\KULIAH\\TUGAS KULIAH\\AR & VR\\UAS\\AR UAS DEV V2\\AR UAS V2\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,-1",
+                        "startColumns": "2,-1",
+                        "startOffsets": "55,-1",
+                        "endColumns": "42,-1",
+                        "endOffsets": "95,-1"
+                    },
+                    "to": {
+                        "startLines": "13,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "802,847",
+                        "endColumns": "44,67",
+                        "endOffsets": "842,910"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\b5ef9510b6e717ba51c67cc11bc3b3a1\\core-1.36.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "356,407,462,588,714",
+                        "endColumns": "50,54,125,125,87",
+                        "endOffsets": "402,457,583,709,797"
+                    }
+                },
+                {
+                    "source": "D:\\KULIAH\\TUGAS KULIAH\\AR & VR\\UAS\\AR UAS DEV V2\\AR UAS V2\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,101,158,214,263,309",
+                        "endColumns": "45,56,55,48,45,46",
+                        "endOffsets": "96,153,209,258,304,351"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\2dae0e5239a453e12b769cd5ad20ea97\\VuforiaEngine\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "15",
+                        "startColumns": "4",
+                        "startOffsets": "915",
+                        "endColumns": "79",
+                        "endOffsets": "990"
+                    }
+                },
+                {
+                    "source": "D:\\KULIAH\\TUGAS KULIAH\\AR & VR\\UAS\\AR UAS DEV V2\\AR UAS V2\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "16,18,21",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "995,1095,1233",
+                        "endLines": "17,20,24",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "1090,1228,1455"
+                    }
+                }
+            ]
+        }
+    ]
+}

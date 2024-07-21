@@ -1,0 +1,227 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.UasAr_1.ArUASV2"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+9-->D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="34" />
+10-->D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-54
+19-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:19-51
+20    <uses-feature
+20-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-13:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-55
+22        android:required="false" />
+22-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-33
+23
+24    <uses-permission android:name="android.permission.CAMERA" />
+24-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:5-65
+24-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:22-62
+25
+26    <uses-feature
+26-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:5-19:36
+27        android:name="android.hardware.camera"
+27-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-47
+28        android:required="true" />
+28-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-33
+29    <uses-feature
+29-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-22:36
+30        android:name="android.hardware.camera.autofocus"
+30-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-57
+31        android:required="false" />
+31-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-33
+32    <uses-feature
+32-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:5-25:36
+33        android:name="android.hardware.camera.front"
+33-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-53
+34        android:required="false" />
+34-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-33
+35    <uses-feature
+35-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:5-28:36
+36        android:name="android.hardware.touchscreen"
+36-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:9-52
+37        android:required="false" />
+37-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-33
+38    <uses-feature
+38-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:5-31:36
+39        android:name="android.hardware.touchscreen.multitouch"
+39-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:9-63
+40        android:required="false" />
+40-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:9-33
+41    <uses-feature
+41-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:5-34:36
+42        android:name="android.hardware.touchscreen.multitouch.distinct"
+42-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:9-72
+43        android:required="false" />
+43-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-33
+44
+45    <queries>
+45-->[com.google.ar:core:1.36.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\b5ef9510b6e717ba51c67cc11bc3b3a1\core-1.36.0\AndroidManifest.xml:20:5-22:15
+46        <package android:name="com.google.ar.core" />
+46-->[com.google.ar:core:1.36.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\b5ef9510b6e717ba51c67cc11bc3b3a1\core-1.36.0\AndroidManifest.xml:21:9-54
+46-->[com.google.ar:core:1.36.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\b5ef9510b6e717ba51c67cc11bc3b3a1\core-1.36.0\AndroidManifest.xml:21:18-51
+47    </queries>
+48    <!--
+49        Required by Vuforia: Add this permission to access IMU sensors at high rate
+50        for device tracker functionality on Android 12+.
+51    -->
+52    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" /> <!-- Required by Vuforia: Add this permission to allow checking of network. -->
+52-->[:VuforiaEngine:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2dae0e5239a453e12b769cd5ad20ea97\VuforiaEngine\AndroidManifest.xml:16:5-85
+52-->[:VuforiaEngine:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2dae0e5239a453e12b769cd5ad20ea97\VuforiaEngine\AndroidManifest.xml:16:22-82
+53    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by Vuforia: Add this permission to allow opening network sockets. -->
+53-->[:VuforiaEngine:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2dae0e5239a453e12b769cd5ad20ea97\VuforiaEngine\AndroidManifest.xml:19:5-79
+53-->[:VuforiaEngine:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2dae0e5239a453e12b769cd5ad20ea97\VuforiaEngine\AndroidManifest.xml:19:22-76
+54    <uses-permission android:name="android.permission.INTERNET" />
+54-->[:VuforiaEngine:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2dae0e5239a453e12b769cd5ad20ea97\VuforiaEngine\AndroidManifest.xml:22:5-67
+54-->[:VuforiaEngine:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2dae0e5239a453e12b769cd5ad20ea97\VuforiaEngine\AndroidManifest.xml:22:22-64
+55
+56    <application
+56-->D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-126
+57        android:extractNativeLibs="true"
+57-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:18-50
+58        android:icon="@mipmap/app_icon"
+58-->D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+59        android:label="@string/app_name"
+59-->D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+60        android:roundIcon="@mipmap/app_icon_round" >
+60-->D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:81-123
+61        <activity
+61-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:9-58:20
+62            android:name="com.unity3d.player.UnityPlayerActivity"
+62-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-66
+63            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+63-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:13-194
+64            android:exported="true"
+64-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:13-36
+65            android:hardwareAccelerated="false"
+65-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-48
+66            android:launchMode="singleTask"
+66-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-44
+67            android:resizeableActivity="false"
+67-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-47
+68            android:screenOrientation="landscape"
+68-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-50
+69            android:theme="@style/UnityThemeSelector" >
+69-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-54
+70            <intent-filter>
+70-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-50:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:17-69
+71-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:17-77
+73-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:27-74
+74            </intent-filter>
+75
+76            <meta-data
+76-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:13-54:40
+77                android:name="unityplayer.UnityActivity"
+77-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:17-57
+78                android:value="true" />
+78-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:17-37
+79            <meta-data
+79-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:13-57:40
+80                android:name="android.notch_support"
+80-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:17-53
+81                android:value="true" />
+81-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:17-37
+82        </activity>
+83
+84        <meta-data
+84-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:60:9-62:33
+85            android:name="unity.splash-mode"
+85-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:13-45
+86            android:value="0" />
+86-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:13-30
+87        <meta-data
+87-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:63:9-65:36
+88            android:name="unity.splash-enable"
+88-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:13-47
+89            android:value="True" />
+89-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:65:13-33
+90        <meta-data
+90-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:66:9-68:36
+91            android:name="unity.launch-fullscreen"
+91-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:67:13-51
+92            android:value="True" />
+92-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:68:13-33
+93        <meta-data
+93-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:69:9-71:50
+94            android:name="notch.config"
+94-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:70:13-40
+95            android:value="portrait|landscape" />
+95-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:71:13-47
+96        <meta-data
+96-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:72:9-74:36
+97            android:name="unity.auto-report-fully-drawn"
+97-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:73:13-57
+98            android:value="true" />
+98-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:74:13-33
+99        <meta-data
+99-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:75:9-77:40
+100            android:name="com.google.ar.core"
+100-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:76:13-46
+101            android:value="optional" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+101-->[:unityLibrary] D:\KULIAH\TUGAS KULIAH\AR & VR\UAS\AR UAS DEV V2\AR UAS V2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:77:13-37
+102        <meta-data
+102-->[com.google.ar:core:1.36.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\b5ef9510b6e717ba51c67cc11bc3b3a1\core-1.36.0\AndroidManifest.xml:27:9-29:41
+103            android:name="com.google.ar.core.min_apk_version"
+103-->[com.google.ar:core:1.36.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\b5ef9510b6e717ba51c67cc11bc3b3a1\core-1.36.0\AndroidManifest.xml:28:13-62
+104            android:value="223110000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+104-->[com.google.ar:core:1.36.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\b5ef9510b6e717ba51c67cc11bc3b3a1\core-1.36.0\AndroidManifest.xml:29:13-38
+105        <activity
+105-->[com.google.ar:core:1.36.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\b5ef9510b6e717ba51c67cc11bc3b3a1\core-1.36.0\AndroidManifest.xml:31:9-37:80
+106            android:name="com.google.ar.core.InstallActivity"
+106-->[com.google.ar:core:1.36.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\b5ef9510b6e717ba51c67cc11bc3b3a1\core-1.36.0\AndroidManifest.xml:32:13-62
+107            android:configChanges="keyboardHidden|orientation|screenSize"
+107-->[com.google.ar:core:1.36.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\b5ef9510b6e717ba51c67cc11bc3b3a1\core-1.36.0\AndroidManifest.xml:33:13-74
+108            android:excludeFromRecents="true"
+108-->[com.google.ar:core:1.36.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\b5ef9510b6e717ba51c67cc11bc3b3a1\core-1.36.0\AndroidManifest.xml:34:13-46
+109            android:exported="false"
+109-->[com.google.ar:core:1.36.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\b5ef9510b6e717ba51c67cc11bc3b3a1\core-1.36.0\AndroidManifest.xml:35:13-37
+110            android:launchMode="singleTop"
+110-->[com.google.ar:core:1.36.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\b5ef9510b6e717ba51c67cc11bc3b3a1\core-1.36.0\AndroidManifest.xml:36:13-43
+111            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+111-->[com.google.ar:core:1.36.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\b5ef9510b6e717ba51c67cc11bc3b3a1\core-1.36.0\AndroidManifest.xml:37:13-77
+112
+113        <provider
+113-->[:VuforiaEngine:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2dae0e5239a453e12b769cd5ad20ea97\VuforiaEngine\AndroidManifest.xml:25:9-33:20
+114            android:name="com.vuforia.engine.app.VuforiaContentProvider"
+114-->[:VuforiaEngine:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2dae0e5239a453e12b769cd5ad20ea97\VuforiaEngine\AndroidManifest.xml:26:13-73
+115            android:authorities="com.UasAr_1.ArUASV2.vuforia.share"
+115-->[:VuforiaEngine:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2dae0e5239a453e12b769cd5ad20ea97\VuforiaEngine\AndroidManifest.xml:27:13-65
+116            android:exported="false"
+116-->[:VuforiaEngine:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2dae0e5239a453e12b769cd5ad20ea97\VuforiaEngine\AndroidManifest.xml:28:13-37
+117            android:grantUriPermissions="true" >
+117-->[:VuforiaEngine:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2dae0e5239a453e12b769cd5ad20ea97\VuforiaEngine\AndroidManifest.xml:29:13-47
+118            <meta-data
+118-->[:VuforiaEngine:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2dae0e5239a453e12b769cd5ad20ea97\VuforiaEngine\AndroidManifest.xml:30:13-32:53
+119                android:name="android.support.FILE_PROVIDER_PATHS"
+119-->[:VuforiaEngine:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2dae0e5239a453e12b769cd5ad20ea97\VuforiaEngine\AndroidManifest.xml:31:17-67
+120                android:resource="@xml/filepaths" />
+120-->[:VuforiaEngine:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2dae0e5239a453e12b769cd5ad20ea97\VuforiaEngine\AndroidManifest.xml:32:17-50
+121        </provider>
+122    </application>
+123
+124</manifest>

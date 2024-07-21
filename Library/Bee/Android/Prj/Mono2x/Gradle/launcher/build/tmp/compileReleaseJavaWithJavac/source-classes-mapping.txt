@@ -1,0 +1,2 @@
+com/UasAr_1/ArUASV2/BuildConfig.java
+ com.UasAr_1.ArUASV2.BuildConfig

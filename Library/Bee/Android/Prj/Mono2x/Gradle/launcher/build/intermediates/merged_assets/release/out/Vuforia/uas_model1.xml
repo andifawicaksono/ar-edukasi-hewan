@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="burungbg" size="1.000000 1.000000" />
+    <ImageTarget name="rusa_black" size="1.000000 1.000000" />
+    <ImageTarget name="monyetbg" size="1.000000 1.000000" />
+  </Tracking>
+</QCARConfig>

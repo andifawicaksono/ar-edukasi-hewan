@@ -1,0 +1,4 @@
+#Thu Jul 18 10:30:44 ICT 2024
+base.0=D\:\\KULIAH\\TUGAS KULIAH\\AR & VR\\UAS\\AR UAS DEV V2\\AR UAS V2\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
